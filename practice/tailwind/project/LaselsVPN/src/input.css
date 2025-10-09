@@ -14,3 +14,41 @@
         @apply max-w-[1440px] container mx-auto px-4 py-16;
     }
 }
+
+.swiper-pagination-bullet{
+    width: 15px;
+    height: 15px;
+    background: #DDE0E4;
+    opacity: 1;
+    margin: 0 5px !important;
+}
+
+.swiper-pagination-bullet-active {
+    background: var(--color-primary);
+    opacity: 1;
+    transform: scale(1.2);
+    transition: transform 0.2s;
+}
+
+.swiper-button-prev, 
+.swiper-button-next {
+    color: transparent !important;
+}
+
+.swiper-button-prev::after, 
+.swiper-button-next::after {
+    content: none !important;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+.swiper-button-prev img,
+.swiper-button-next img {
+    margin: 0 !important;
+    position: static !important;
+}
