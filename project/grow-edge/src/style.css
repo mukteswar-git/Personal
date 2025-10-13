@@ -5,7 +5,7 @@
 @theme {
     --font-sans: "Inter", sans-serif;
     --color-primary: #2870F1;
-    --color-heading: #8692A1;
+    --color-heading: #000;
     --color-body: #0F1114;
     --color-action: #2870F1;
     --color-action-hover: #1E59C2;
@@ -18,5 +18,9 @@
 
   .nav-link.active {
     @apply text-action-hover after:scale-y-100;
+  }
+
+  .btn {
+    @apply bg-primary text-white px-4 py-2 rounded-lg hover:bg-action-hover shadow-lg hover:shadow-xl transition duration-300 text-xs font-medium cursor-pointer;
   }
 }

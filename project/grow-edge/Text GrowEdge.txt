@@ -6,7 +6,7 @@ GrowEdge
 Home - About - Service - Contact
 
 
-============= HOME =============
+============= HOME ============= 
 .home__title
 Unlock Potential with your <br> Personal Coach
 
