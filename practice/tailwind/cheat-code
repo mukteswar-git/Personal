@@ -1,2 +1,7 @@
 1. Underline
 	relative text-action hover:text-action-hover text-sm font-bold after:content-[''] after:absolute after:left-[-4px] after:-bottom-1 after:w-[calc(100%+8px)] after:h-[2px] after:bg-action-hover after:transition after:duration-300 after:scale-y-0 hover:after:scale-y-100 after:origin-bottom 
+	
+2. Expand animation
+	<a href="#" class="inline-block text-blue-600 font-bold transform transition-transform duration-300 hover:scale-110">Hover me</a>
+	
+
