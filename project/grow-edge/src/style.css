@@ -5,8 +5,11 @@
 @theme {
     --font-sans: "Inter", sans-serif;
     --color-primary: #2870F1;
+    --color-surface-primary: #fff;
+    --color-surface-secondary: #EEF1F5;
     --color-heading: #000;
     --color-body: #0F1114;
+    --color-quote: #575F6A;
     --color-action: #2870F1;
     --color-action-hover: #1E59C2;
 }
