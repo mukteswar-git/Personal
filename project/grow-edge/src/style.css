@@ -7,6 +7,8 @@
     --color-primary: #2870F1;
     --color-surface-primary: #fff;
     --color-surface-secondary: #EEF1F5;
+    --color-border-primary: #EFF1F3;
+    --color-border-secondary: #2870F1;
     --color-heading: #000;
     --color-body: #0F1114;
     --color-quote: #575F6A;
@@ -25,5 +27,39 @@
 
   .btn {
     @apply bg-primary text-white px-4 py-2 rounded-lg hover:bg-action-hover shadow-lg hover:shadow-xl transition duration-300 text-xs font-medium cursor-pointer;
+  }
+
+  /* Service card */
+  .service-card {
+    @apply flex flex-col p-4 shadow-sm w-[300px] bg-white border border-border-primary rounded-xl;
+  }
+
+  .service-card img {
+    @apply block w-full h-auto object-cover rounded-lg;
+  }
+
+  .service-card h3 {
+    @apply text-base font-bold text-left py-2;
+  }
+
+  .service-card p {
+    @apply text-sm pb-4;
+  }
+
+  /* Work Card */
+  .work {
+    @apply flex flex-col gap-2 p-6 w-[300px] shadow-md border border-border-primary rounded-lg;
+  }
+
+  .work h2 {
+    @apply text-xl font-extrabold text-heading;
+  }
+
+  .work h3 {
+    @apply text-base font-bold text-heading;
+  }
+
+  .work p {
+    @apply text-sm  text-body;
   }
 }

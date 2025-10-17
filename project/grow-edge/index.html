@@ -98,17 +98,87 @@
   <!-- Service -->
   <section id="service" class="container mx-auto px-4 py-12 bg-surface-secondary">
     <!-- Contents -->
-    <div>
-      <h1 class="text-2xl font-bold text-heading">Services Offered</h1>
-      <div>
+    <div class="flex flex-col items-center">
+      <h1 class="text-2xl font-bold text-heading py-4">Services Offered</h1>
+      <div class="flex flex-wrap justify-center gap-6">
         <!-- service cards -->
-        <div class="flex flex-col p-4 shadow-xl">
-          <h3 class="text-lg font-bold text-center py-2">Confidence Coaching</h3>
-          <p class="pb-4">
-            Overcome self-doubt, unlock your voice, and build self-belief through weekly Zoom sessions (45 mins).
-          </p>
-          <img src="/src/assets/images/service1.png" alt="image">
+        <div class="service-card">
+          <h3>Confidence Coaching</h3>
+          <p>Overcome self-doubt, unlock your voice, and build self-belief through weekly Zoom sessions (45 mins).</p>
+          <img src="/src/assets/images/service1.jpg" alt="image" />
         </div>
+
+        <div class="service-card">
+          <h3>Goal-Setting Sessions</h3>
+          <p>Set meaningful personal or professional goals with action steps. Includes 2 live calls and a progress worksheet.</p>
+          <img src="/src/assets/images/service2.jpg" alt="image" />
+        </div>
+
+        <div class="service-card">
+          <h3>Time Management</h3>
+          <p>Learn simple, actionable techniques to manage your day better. One 1-hour Zoom session + planner PDF.                          </p>
+          <img src="/src/assets/images/service3.jpg" alt="image" />
+        </div>
+
+        <div class="service-card">
+          <h3>Group Coaching</h3>
+          <p>Join a supportive 4-week program with weekly group calls, accountability partners, and growth tools.</p>
+          <img src="/src/assets/images/service4.jpg" alt="image" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- How it works -->
+  <section class="container mx-auto px-4">
+    <!-- Contents -->
+    <div class="flex flex-col items-center">
+      <h1 class="text-2xl font-bold text-heading py-4">How It works</h1>
+      <div>
+        <!-- Cards -->
+         <div class="work">
+          <h2>1</h2>
+          <h3>Book a Free Call</h3>
+          <p>Choose a convenient time to speak with Priya and explore your challenges.</p>
+         </div>
+
+         <div class="work">
+          <h2>2</h2>
+          <h3>Book a Free Call</h3>
+          <p>After understanding your needs, receive a coaching plan tailored for you.</p>
+         </div>
+
+         <div class="work">
+          <h2>3</h2>
+          <h3>Start Your Journey</h3>
+          <p>Begin your transformation with confidence and guided support every step of the way.</p>
+         </div>
+      </div>
+      <button class="btn mt-12">Book Your Free Call</button>
+    </div>
+  </section>
+
+  <!-- Testimonial -->
+  <section class="container mx-auto px-4 py-12">
+    <!-- Contents -->
+    <div>
+      <h1>What Clients Say</h1>
+      <!-- Cards -->
+      <div class="flex flex-col w-[300px] p-4 gap-2 bg-white border border-border-primary shadow-md rounded-xl">
+        <div class="flex items-center gap-2">
+          <img src="/src/assets/images/client1.png" alt="" class="w-10 h-10">
+          <div>
+            <h3 class="text-lg font-bold text-heading">Ananya Sharma</h3>
+            <ul class="flex gap-1">
+              <li><img src="/src/assets/images/full-star.png" alt=""></li>
+              <li><img src="/src/assets/images/full-star.png" alt=""></li>
+              <li><img src="/src/assets/images/full-star.png" alt=""></li>
+              <li><img src="/src/assets/images/full-star.png" alt=""></li>
+              <li><img src="/src/assets/images/half-star.png" alt=""></li>
+            </ul>
+          </div>
+        </div>
+        <p class="text-sm text-body">“Mukteswar helped me regain clarity and self-belief when I felt stuck in my career. Her sessions are life-changing!”</p>
       </div>
     </div>
   </section>
