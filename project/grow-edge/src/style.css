@@ -62,4 +62,25 @@
   .work p {
     @apply text-sm  text-body;
   }
+
+  /* Testimonial */
+  .testimonial {
+    @apply flex flex-col w-[300px] p-4 gap-2 bg-white border border-border-primary shadow-md rounded-xl;
+  }
+
+  .testimonial-header {
+    @apply flex items-center gap-2;
+  }
+
+  .testimonial h3 {
+    @apply text-lg font-bold text-heading;
+  }
+
+  .testimonial ul {
+    @apply flex gap-1;
+  }
+
+  .testimonial p {
+    @apply text-sm text-body;
+  }
 }

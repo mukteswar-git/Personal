@@ -159,26 +159,106 @@
   </section>
 
   <!-- Testimonial -->
-  <section class="container mx-auto px-4 py-12">
+  <section class="container mx-auto px-4 py-12 bg-surface-secondary">
     <!-- Contents -->
-    <div>
-      <h1>What Clients Say</h1>
+    <div class="flex flex-col items-center gap-4">
+      <h1 class="text-2xl font-bold text-heading py-4">What Clients Say</h1>
       <!-- Cards -->
-      <div class="flex flex-col w-[300px] p-4 gap-2 bg-white border border-border-primary shadow-md rounded-xl">
-        <div class="flex items-center gap-2">
-          <img src="/src/assets/images/client1.png" alt="" class="w-10 h-10">
-          <div>
-            <h3 class="text-lg font-bold text-heading">Ananya Sharma</h3>
-            <ul class="flex gap-1">
-              <li><img src="/src/assets/images/full-star.png" alt=""></li>
-              <li><img src="/src/assets/images/full-star.png" alt=""></li>
-              <li><img src="/src/assets/images/full-star.png" alt=""></li>
-              <li><img src="/src/assets/images/full-star.png" alt=""></li>
-              <li><img src="/src/assets/images/half-star.png" alt=""></li>
-            </ul>
+      <div class="flex flex-wrap justify-center gap-4">
+        <div class="testimonial">
+          <div class="testimonial-header">
+            <img src="/src/assets/images/client1.png" alt="" class="w-10 h-10">
+            <div>
+              <h3>Ananya Sharma</h3>
+              <ul>
+                <li><img src="/src/assets/images/full-star.png" alt=""></li>
+                <li><img src="/src/assets/images/full-star.png" alt=""></li>
+                <li><img src="/src/assets/images/full-star.png" alt=""></li>
+                <li><img src="/src/assets/images/full-star.png" alt=""></li>
+                <li><img src="/src/assets/images/half-star.png" alt=""></li>
+              </ul>
+            </div>
           </div>
+          <p>“Mukteswar helped me regain clarity and self-belief when I felt stuck in my career. Her sessions are life-changing!”</p>
         </div>
-        <p class="text-sm text-body">“Mukteswar helped me regain clarity and self-belief when I felt stuck in my career. Her sessions are life-changing!”</p>
+
+        <div class="testimonial">
+          <div class="testimonial-header">
+            <img src="/src/assets/images/client2.png" alt="" class="w-10 h-10">
+            <div>
+              <h3>Rohit Mehta</h3>
+              <ul>
+                <li><img src="/src/assets/images/full-star.png" alt=""></li>
+                <li><img src="/src/assets/images/full-star.png" alt=""></li>
+                <li><img src="/src/assets/images/full-star.png" alt=""></li>
+                <li><img src="/src/assets/images/full-star.png" alt=""></li>
+                <li><img src="/src/assets/images/half-star.png" alt=""></li>
+              </ul>
+            </div>
+          </div>
+          <p>“From time management to building confidence, the coaching was precise and personalized. Highly recommend GrowEdge!”</p>
+        </div>
+
+        <div class="testimonial">
+          <div class="testimonial-header">
+            <img src="/src/assets/images/client3.png" alt="" class="w-10 h-10">
+            <div>
+              <h3>Harpit Mishra</h3>
+              <ul>
+                <li><img src="/src/assets/images/full-star.png" alt=""></li>
+                <li><img src="/src/assets/images/full-star.png" alt=""></li>
+                <li><img src="/src/assets/images/full-star.png" alt=""></li>
+                <li><img src="/src/assets/images/full-star.png" alt=""></li>
+                <li><img src="/src/assets/images/half-star.png" alt=""></li>
+              </ul>
+            </div>
+          </div>
+          <p>“I joined the group coaching program with low expectations and left with a new mindset and new habits. Game changer!”</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="contact container mx-auto px-10 py-12">
+    <div class="flex flex-col items-center gap-4">
+      <h1 class="text-2xl font-bold text-heading py-4">Get in Touch</h1>
+      <div class="w-full">
+        <form class="bg-surface-secondary rounded p-5">
+          <div class="pb-4">
+            <input 
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Enter Your Name"
+              class="w-full border border-gray-300 rounded-lg p-2 bg-white focus:outline-none focus:ring-2 focus:ring-blue-500"
+            >
+          </div>
+
+          <div class="pb-4">
+            <input 
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Enter Your Email"
+              class="w-full border border-gray-300 rounded-lg p-2 bg-white focus:outline-none focus:ring-2 focus:ring-blue-500"
+            >
+          </div>
+
+          <div class="pb-4">
+            <textarea 
+              id="message"
+              name="message"
+              rows="4"
+              placeholder="Your Message"
+              class="w-full border border-gray-300 rounded-lg p-2 bg-white focus:outline-none focus:ring-2 focus:ring-blue-500"
+            ></textarea>
+          </div>
+
+          <button type="submit" class="btn">
+            Send Message
+          </button>
+        </form>
       </div>
     </div>
   </section>
